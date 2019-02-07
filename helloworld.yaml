@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hello-world
-  namespace: test
+  namespace: sock-shop
   labels:
     app: hello-world
 spec:
