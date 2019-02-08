@@ -18,6 +18,13 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: rancher/rancher:latest
+        image: vad1mo/hello-world-rest
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            cpu: 100m
+            memory: 256Mi
+          requests:
+            cpu: 50m
+            memory: 128Mi
