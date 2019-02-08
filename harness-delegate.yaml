@@ -64,7 +64,7 @@ spec:
         resources:
           limits:
             cpu: "1"
-            memory: "8Gi"
+            memory: "2Gi"
         env:
         - name: ACCOUNT_ID
           value: vkBmD7FKSGGNuyb3gMt8EQ
