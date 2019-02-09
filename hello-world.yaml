@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: vad1mo/hello-world-rest
+        image: <not set> #vad1mo/hello-world-rest
         ports:
         - containerPort: 80
         resources:
